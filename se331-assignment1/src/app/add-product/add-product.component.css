@@ -1,0 +1,17 @@
+form {
+	width: 50%;
+	margin: auto;
+}
+h3{
+	margin-left: 180px;
+}
+.add-button{
+	margin-top: 10px;
+}
+.card-body{
+	width: 45%; 
+	float: right;
+}
+.card-img-top{
+	width: 50%; 
+}

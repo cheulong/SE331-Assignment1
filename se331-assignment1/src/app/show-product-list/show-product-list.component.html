@@ -12,11 +12,12 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td>...</td>
-				<td>...</td>
-				<td>...</td>
-				<td>...</td>
+			<tr *ngFor="let product of products" >
+				<td>{{product.id}}</td>
+				<td>{{product.name}}</td>
+				<td>{{product.description| limitTo :50 }}</td>
+				<td>{{product.price}}</td>
+				<button class="btn btn-primary" (click)="showInfo(product)">Detail</button>
 			</tr>
 
 		</tbody>

@@ -1,0 +1,14 @@
+.card-body{
+	width: 45%;
+	position:absolute; 
+	margin-left: 50%;
+}
+.image{
+	float: left;
+	width: 40%;
+	height: 400px;
+}
+img{
+	width: auto;
+	height: 400px;
+}
